@@ -1,8 +1,6 @@
-type Props = {
-  title: string
-}
-function HomePage({ title = 'React Avançado' }: Props) {
-  return <div>{title}</div>
-}
+import Main from 'components/Main'
 
-export default HomePage
+function Home() {
+  return <Main />
+}
+export default Home
