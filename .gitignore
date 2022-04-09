@@ -6,6 +6,10 @@
 # Next build dir
 .next/
 
+### Service Work ###
+public/sw.js
+public/workbox-*.js
+
 ### Node ###
 # Logs
 logs
@@ -129,6 +133,9 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+#StoryBook
+/storybook-static
 
 # yarn v2
 .yarn/cache
